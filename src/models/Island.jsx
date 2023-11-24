@@ -13,9 +13,16 @@ import isLandScene from "../assets/3d/island.glb";
 // a is animated
 import { a } from "@react-spring/three";
 
-const Island = (props) => {
-  const { nodes, materials } = useGLTF(isLandScene);
+const Island = ({isRotating, setIsRotating, ...props}) => {
   const islandRef = useRef();
+
+  const {gl, viewport} = useThree()
+  const { nodes, materials } = useGLTF(isLandScene);
+
+  const lastX = useRef(0)
+  const rotationSpeed = useRef(0)
+  const dampingFactor = 0.95
+
   return (
     <a.group ref={islandRef} {...props}>
       <mesh
