@@ -10,7 +10,7 @@ import Contact from './pages/Contact'
 
 const App = () => {
   return (
-  <main className='bg-slate-300/20'>
+  <main className='bg-slate-300/20 select-none'>
     <BrowserRouter>
         <Navbar />
         <Routes>

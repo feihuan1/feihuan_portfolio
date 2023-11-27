@@ -6,10 +6,11 @@ import Island from "../models/island";
 import Sky from "../models/Sky";
 import Bird from "../models/Bird";
 import Plane from "../models/Plane";
+import HomeInfo from "../components/HomeInfo";
 
 const Home = () => {
   const [isRotating, setIsRotating] = useState(false)
-
+  const [currentStage, setCurrentStage] = useState(1)
 
 
   const adjustIslandForScreenSize = () => {
@@ -18,7 +19,7 @@ const Home = () => {
  
 
     if (window.innerWidth < 768) {
-      screenScale = [0.9, 0.9, 0.9];
+      screenScale = [0.7, 0.7, 0.7];
     } else {
       screenScale = [1, 1, 1];
     }
@@ -45,10 +46,10 @@ const Home = () => {
   const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
   return (
-    <div className="w-full h-screen relative">
-      {/* <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center bg-red-500'>
-        Toast here
-      </div> */}
+    <div className="w-full h-screen relative ">
+      <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center '>
+        {currentStage && <HomeInfo currentStage={currentStage} />}
+      </div>
 
       <Canvas
         className={`w-full h-screen bg-transparent ${isRotating ? 'cursor-grabbing' : 'cursor-grab'}`}
@@ -64,30 +65,24 @@ const Home = () => {
           <ambientLight intensity={0.5} />
 
 
-          {/* point light mix all lights into a signle point, wont need in this case */}
-          {/* <pointLight /> */}
-
-          {/* spot light is light from one direction */}
-          {/* <spotLight /> */}
-
-
           {/* hemesphere light illumilate the scene with gradient */}
           <hemisphereLight skyColor='#b1e1ff' groundColor='#000000' intensity={1} />
 
           <Bird />
-          <Sky />
+          <Sky isRotating={isRotating} />
           <Island
             position={islandPosition} 
             scale={islandScale} 
             isRotating={isRotating} 
             setIsRotating={setIsRotating}
-            rotation={[0.1, 4.7, 0]}
+            setCurrentStage={setCurrentStage}
+            rotation={[0.1, 4.71, 0]}
           />
           <Plane 
             isRotating={isRotating}
             planeScale={planeScale} 
             planePosition={planePosition} 
-            rotation={[0, 20, 0]}
+            rotation={[0, 20.2, 0]}
           />
         </Suspense>
       </Canvas>
