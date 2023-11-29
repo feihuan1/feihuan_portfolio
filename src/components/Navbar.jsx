@@ -1,9 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
 const Navbar = () => {
+  const location = useLocation();
+  const currentUrl = location.pathname
+
   return (
-    <header className='header'>
+    <header className={`header ${currentUrl === '/' ||currentUrl=== '/contact' ? 'bg-transparent' : 'bg-[#f5f7f9]'}`}>
       <NavLink to='/' className='w-10 h-10 rounded-lg bg-white flex items-center justify-center font-bold shadow-md'>
         <p className='blue-gradient_text'>PF</p>
       </NavLink>
