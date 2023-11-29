@@ -1,15 +1,13 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
 import logo from './logo.svg'
+import realtyone from './realtyone.jpg'
+import toyota from './toyota.png'
+import freelance from './freelance.png'
+import youtube from './youtube.png'
 
 export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    logo,
+    realtyone,
+    youtube,
+    freelance,
+    toyota
 }

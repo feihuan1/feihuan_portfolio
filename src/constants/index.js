@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { realtyone, toyota, freelance, youtube } from "../assets/images";
 import {
     car,
     contact,
@@ -100,58 +100,59 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+      title: "Web Developer",
+      company_name: "Freelancer",
+      icon: freelance,
+      iconBg: "#a799ff",
+      date: "Mar 2022 - Present",
+      points: [
+        "Committed to continuous learning and creative problem-solving in web development.",
+        "Actively involved in open source projects, sharing knowledge and enhancing skills.",
+        "Crafted custom games and websites as gifts, showcasing a personal touch in my work.",
+        "Proficient in creative problem-solving to deliver efficient web solutions for clients.",
+      ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Content Creator",
+        company_name: "Youtube",
+        icon: youtube,
+        iconBg: "#ff9797",
+        date: "Sep 2021 - Feb 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+          "Engaged 50k+ subscribers, creating content based on their feedback and building a strong online community.",
+          "Produced captivating videos, fostering a loyal viewership through imaginative content.",
+          "Committed to ongoing learning in content creation to stay current with trends and tools.",
+          "Overcame production challenges through creative solutions, ensuring top-notch content quality.",
         ],
-    },
+      },
+      {
+        title: "Sales Associate",
+        company_name: "Autonation Toyota",
+        icon: toyota,
+        iconBg: "#e898fe",
+        date: "Apr 2019 - Feb 2022",
+        points: [
+          "Provided exceptional service by listening to customer needs and offering tailored solutions.",
+          "Demonstrated patience in addressing inquiries and concerns, ensuring customer satisfaction.",
+          "Resolved issues creatively, ensuring a smooth and satisfactory buying experience.",
+          "Maintained up-to-date knowledge of Toyota products for informed customer guidance. "
+         ],
+      },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+      title: "Real Estate Agent",
+      company_name: "Realty One Group",
+      icon: realtyone,
+      iconBg: "#f6ee88",
+      date: "Mar 2014 - Apr 2019",
+      points: [
+        "Provided unwavering support and patience to meet client needs.",
+        "Actively collaborated with professionals for successful transactions.",
+        "Maintained timely and reliable client communication.",
+        "Skillfully resolved negotiations for positive outcomes.",
+      ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-];
+
+  ];
 
 export const socialLinks = [
     {
