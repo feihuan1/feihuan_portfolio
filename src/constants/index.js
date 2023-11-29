@@ -12,13 +12,11 @@ import {
     linkedin,
     mongodb,
     motion,
-    mui,
     nextjs,
     nodejs,
     pricewise,
     react,
     redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
@@ -68,11 +66,6 @@ export const skills = [
         type: "Animation",
     },
     {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
@@ -92,11 +85,7 @@ export const skills = [
         name: "Redux",
         type: "State Management",
     },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
