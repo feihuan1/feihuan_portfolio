@@ -30,7 +30,7 @@ const renderContent = {
         ),
     3: (
         <InfoBox 
-        text='All my projects is open source on github with live demo.'  
+        text='Most my projects is open source with live demo.'  
         link='/projects'
         btnText='My projects'
       />
