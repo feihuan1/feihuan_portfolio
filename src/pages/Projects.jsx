@@ -52,7 +52,7 @@ const Projects = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Link
-                  to={project.link} 
+                  to={project.code} 
                   target='_blank' 
                   rel="noopener noreferrer" 
                   className="font-semibold text-blue-600"

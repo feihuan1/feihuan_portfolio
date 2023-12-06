@@ -17,7 +17,8 @@ import {
     redux,
     moments,
     tailwindcss,
-    typescript
+    typescript,
+    anime
 } from "../assets/icons";
 
 export const skills = [
@@ -184,6 +185,14 @@ export const projects = [
         description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
         link: 'https://nextjs-car-rental-eight.vercel.app',
         code:'https://github.com/feihuan1/nextjs-car-rental'
+    },
+    {
+        iconUrl: anime,
+        theme: 'btn-back-red',
+        name: 'Anime Vault',
+        description: 'Developed a web application that display popular animes with infinite scroll, each anime has own detail page.',
+        link: 'https://anime-vault-theta.vercel.app',
+        code:'https://github.com/feihuan1/Anime_Vault'
     },
 
 ];
