@@ -18,7 +18,8 @@ import {
     moments,
     tailwindcss,
     typescript,
-    anime
+    anime, 
+    fashionwise
 } from "../assets/icons";
 
 export const skills = [
@@ -177,6 +178,14 @@ export const projects = [
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
         link: 'https://react-social-media-pink.vercel.app/',
         code:'https://github.com/feihuan1/react-social-media/tree/main'
+    },
+    {
+        iconUrl: fashionwise,
+        theme: 'btn-back-green',
+        name: 'FashionWise',
+        description: 'Implemented a full-stack e-commerce solution with Sanity for backend and integrated a seamless Stripe payment system for efficient transactions.',
+        link: 'https://ecomsite-fkdhsuti2-pengfeihuans-projects.vercel.app/',
+        code:'https://github.com/feihuan1/ecomsite'
     },
     {
         iconUrl: car,
