@@ -175,7 +175,7 @@ export const projects = [
         iconUrl: moments,
         theme: 'btn-back-pink',
         name: 'Moments',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        description: 'A React full stack modern social media app with stunning UI and a responsive native mobile feel, Allow users create, edit, like and save posts.',
         link: 'https://react-social-media-pink.vercel.app/',
         code:'https://github.com/feihuan1/react-social-media/tree/main'
     },
@@ -183,7 +183,7 @@ export const projects = [
         iconUrl: fashionwise,
         theme: 'btn-back-green',
         name: 'FashionWise',
-        description: 'Implemented a full-stack e-commerce solution with Sanity for backend and integrated a seamless Stripe payment system for efficient transactions.',
+        description: 'Implemented a full-stack Nextjs e-commerce site with Sanity for backend and integrated a seamless Stripe payment system for efficient transactions.',
         link: 'https://ecomsite-fkdhsuti2-pengfeihuans-projects.vercel.app/',
         code:'https://github.com/feihuan1/ecomsite'
     },
