@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
-import resume from "../assets/resume.pdf";
+import resume from "../assets/FeihuanResume.pdf";
 
 const Navbar = () => {
   const location = useLocation();
