@@ -1,4 +1,4 @@
-import { realtyone, toyota, freelance, youtube } from "../assets/images";
+import { realtyone, toyota, tebra, kb } from "../assets/images";
 import {
     car,
     contact,
@@ -98,29 +98,31 @@ export const skills = [
 
 export const experiences = [
     {
-      title: "Web Developer",
-      company_name: "Freelancer",
-      icon: freelance,
+      title: "Full Stack Developer",
+      company_name: "KB Motor",
+      icon: kb,
       iconBg: "#a799ff",
-      date: "Mar 2022 - Present",
+      date: "Mary 2023 - Present", 
+      link: "https://www.kbmotorusa.com/",
       points: [
-        "Committed to continuous learning and creative problem-solving in web development.",
-        "Actively involved in open source projects, sharing knowledge and enhancing skills.",
-        "Crafted custom games and websites as gifts, showcasing a personal touch in my work.",
-        "Proficient in creative problem-solving to deliver efficient web solutions for clients.",
+        "Creating and maintaining a visually appealing and fully responsive website, ensuring seamless user experience across all devices.",
+        "Employed Firestore as the backend database, providing robust data storage capabilities for the React frontend.",
+        "Integrated a live chatting system using Socket.IO for real-time communication with clients.",
+        "Implemented Tailwind CSS for efficient styling , enhancing code maintainability and design consistency.",
       ],
     },
     {
-        title: "Content Creator",
-        company_name: "Youtube",
-        icon: youtube,
+        title: "Frontend Developer",
+        company_name: "Tebra",
+        icon: tebra,
         iconBg: "#ff9797",
-        date: "Sep 2021 - Feb 2023",
+        date: "February 2021 - June 2022", 
+        link: "https://get.tebra.com/",
         points: [
-          "Engaged 50k+ subscribers, creating content based on their feedback and building a strong online community.",
-          "Produced captivating videos, fostering a loyal viewership through imaginative content.",
-          "Committed to ongoing learning in content creation to stay current with trends and tools.",
-          "Overcame production challenges through creative solutions, ensuring top-notch content quality.",
+          "Collaborated within a team to develop user-friendly React applications, incorporating TypeScript for enhanced code quality and maintainability.",
+          "Participated in Agile ceremonies such as sprint planning, daily stand-ups, and retrospectives, using Jira and following Scrum practices.",
+          "Conducted code reviews and performance optimizations with version control using Git and GitHub.",
+          "Implemented comprehensive unit and integration tests using Jest and React Testing Library, ensuring code reliability and maintaining high test coverage.",
         ],
       },
       {

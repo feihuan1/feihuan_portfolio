@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"; 
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -6,6 +8,8 @@ import "react-vertical-timeline-component/style.min.css";
 
 import { skills, experiences } from "../constants";
 import CTA from "../components/CTA";
+
+import { arrow } from "../assets/icons";
 
 const About = () => {
   return (
@@ -24,7 +28,7 @@ const About = () => {
         </p>
       </div>
       {/* ```````````````````````````````````````````````````` */}
-      <hr className="border-slate-300 my-12"/>
+      <hr className="border-slate-300 my-12" />
       {/* ``````````````````````````````````````````` */}
       <div className="py-10 flex flex-col ">
         <h3 className="subhead-text">My Skills</h3>
@@ -45,7 +49,7 @@ const About = () => {
         </div>
       </div>
       {/* `````````````````````````````````````````````````````````` */}
-      <hr className="border-slate-300 my-12"/>
+      <hr className="border-slate-300 my-12" />
       {/* `````````````````````````````````````````````` */}
       <div className="py-16">
         <h3 className="subhead-text">Work Experience</h3>
@@ -67,18 +71,18 @@ const About = () => {
                     <img
                       src={experience.icon}
                       alt="company-logo"
-                      className="w-[60%] h-[60%] object-contain"
+                      className="w-[60%] h-[60%] object-contain rounded-lg"
                     />
                   </div>
                 }
                 contentStyle={{
-                 borderBottom: '8px', 
-                 borderStyle: 'solid', 
-                 borderBottomColor: experience.iconBg, 
-                 boxShadow: 'none'
-                }} 
+                  borderBottom: "8px",
+                  borderStyle: "solid",
+                  borderBottomColor: experience.iconBg,
+                  boxShadow: "none",
+                }}
                 iconStyle={{
-                  background: experience.iconBg
+                  background: experience.iconBg,
                 }}
               >
                 <div>
@@ -91,6 +95,19 @@ const About = () => {
                   >
                     {experience.company_name}
                   </p>
+                  {experience.link && (
+                                  <div className="flex items-center gap-2">
+                                  <Link
+                                    to={experience.code} 
+                                    target='_blank' 
+                                    rel="noopener noreferrer" 
+                                    className="font-semibold text-blue-600"
+                                  >
+                                    Project Link
+                                  </Link> 
+                                  <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
+                                </div>
+                  )}
                 </div>
                 <ul className="my-5 list-disc ml-5 space-y-2">
                   {experience.points.map((point, index) => (
