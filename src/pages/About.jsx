@@ -98,7 +98,7 @@ const About = () => {
                   {experience.link && (
                                   <div className="flex items-center gap-2">
                                   <Link
-                                    to={experience.code} 
+                                    to={experience.link} 
                                     target='_blank' 
                                     rel="noopener noreferrer" 
                                     className="font-semibold text-blue-600"
