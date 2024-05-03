@@ -102,7 +102,7 @@ export const experiences = [
       company_name: "KB Motor",
       icon: kb,
       iconBg: "#a799ff",
-      date: "Mary 2023 - Present", 
+      date: "Mar 2023 - Present", 
       link: "https://www.kbmotorusa.com/",
       points: [
         "Creating and maintaining a visually appealing and fully responsive website, ensuring seamless user experience across all devices.",
@@ -116,7 +116,7 @@ export const experiences = [
         company_name: "Tebra",
         icon: tebra,
         iconBg: "#ff9797",
-        date: "February 2021 - June 2022", 
+        date: "Feb 2021 - Jun 2022", 
         link: "https://get.tebra.com/",
         points: [
           "Collaborated within a team to develop user-friendly React applications, incorporating TypeScript for enhanced code quality and maintainability.",
@@ -130,7 +130,7 @@ export const experiences = [
         company_name: "Autonation Toyota",
         icon: toyota,
         iconBg: "#e898fe",
-        date: "Apr 2019 - Feb 2022",
+        date: "Apr 2018 - Feb 2020",
         points: [
           "Provided exceptional service by listening to customer needs and offering tailored solutions.",
           "Demonstrated patience in addressing inquiries and concerns, ensuring customer satisfaction.",
@@ -143,7 +143,7 @@ export const experiences = [
       company_name: "Realty One Group",
       icon: realtyone,
       iconBg: "#f6ee88",
-      date: "Mar 2014 - Apr 2019",
+      date: "Mar 2014 - Apr 2018",
       points: [
         "Provided unwavering support and patience to meet client needs.",
         "Actively collaborated with professionals for successful transactions.",
