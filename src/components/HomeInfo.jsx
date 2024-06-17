@@ -18,7 +18,7 @@ const renderContent = {
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
             Hello, I am <span className='font-semibold'>Feihuan</span> 👋
             <br />
-            A Web Developer from California
+            A Software Engineer from California
         </h1>
         ),
     2: (

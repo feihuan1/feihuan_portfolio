@@ -24,6 +24,8 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import anime from './anime.png' 
 import fashionwise from './fashionwise.png'
+import python from './python.png'
+import godot from './godot.png'
 
 export {
     anime,
@@ -51,5 +53,7 @@ export {
     contact,
     soundon,
     soundoff, 
-    fashionwise
+    fashionwise,
+    python,
+    godot
 }

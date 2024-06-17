@@ -1,4 +1,4 @@
-import { realtyone, toyota, tebra, kb } from "../assets/images";
+import { realtyone, toyota, youtube, freelancer } from "../assets/images";
 import {
     car,
     contact,
@@ -19,10 +19,32 @@ import {
     tailwindcss,
     typescript,
     anime, 
-    fashionwise
+    fashionwise,
+    python,
+    godot
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },    
+    {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: python,
+        name: "python",
+        type: "Backend",
+    },    
+    {
+        imageUrl: godot,
+        name: "Godot",
+        type: "GameDev",
+    },
     {
         imageUrl: css,
         name: "CSS",
@@ -49,19 +71,9 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
     },
     {
         imageUrl: nextjs,
@@ -79,52 +91,41 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
 ];
 
 export const experiences = [
     {
-      title: "Full Stack Developer",
-      company_name: "KB Motor",
-      icon: kb,
-      iconBg: "#a799ff",
-      date: "Mar 2023 - Present", 
-      link: "https://www.kbmotorusa.com/",
-      points: [
-        "Creating and maintaining a visually appealing and fully responsive website, ensuring seamless user experience across all devices.",
-        "Employed Firestore as the backend database, providing robust data storage capabilities for the React frontend.",
-        "Integrated a live chatting system using Socket.IO for real-time communication with clients.",
-        "Implemented Tailwind CSS for efficient styling , enhancing code maintainability and design consistency.",
-      ],
-    },
-    {
-        title: "Frontend Developer",
-        company_name: "Tebra",
-        icon: tebra,
+        title: "Freelance Developer",
+        company_name: "Self-employed",
+        icon: freelancer,
         iconBg: "#ff9797",
-        date: "Feb 2021 - Jun 2022", 
-        link: "https://get.tebra.com/",
+        date: "Nov 2022 - current", 
         points: [
-          "Collaborated within a team to develop user-friendly React applications, incorporating TypeScript for enhanced code quality and maintainability.",
-          "Participated in Agile ceremonies such as sprint planning, daily stand-ups, and retrospectives, using Jira and following Scrum practices.",
-          "Conducted code reviews and performance optimizations with version control using Git and GitHub.",
-          "Implemented comprehensive unit and integration tests using Jest and React Testing Library, ensuring code reliability and maintaining high test coverage.",
+            "Learned coding over the past two years, focusing on JavaScript and Python.",
+            "Utilized React and Next.js for developing web applications.",
+            "Continuously learned and applied AI concepts using Python.",
+            "Built various games to enhance coding skills and explore new technologies.",
+            "Regularly practiced problem-solving skills to improve coding proficiency"
         ],
       },
+      {
+        title: "YouTuber",
+        company_name: "Self-employed",
+        icon: youtube, 
+        iconBg: "#52abff",
+        date: "Feb 2019 - Jan 2022",
+        points: [
+            "Uploaded videos daily, covering a range of topics to maintain audience interest and engagement.",
+            "Designed custom thumbnails for each video, enhancing visual appeal and increasing click-through rates.",
+            "Implemented SEO strategies to optimize video titles, descriptions, and tags, resulting in higher search rankings and increased visibility.",
+            "Collaborated with other YouTubers and influencers to expand reach and attract new subscribers.",
+            "Analyzed viewer metrics and feedback to continually improve content quality and relevance.",
+        ],
+    },
       {
         title: "Sales Associate",
         company_name: "Autonation Toyota",
