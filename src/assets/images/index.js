@@ -3,6 +3,7 @@ import realtyone from './realtyone.jpg'
 import toyota from './toyota.png'
 import youtube from './youtube.png'
 import freelancer from './freelancer.png'
+import cueHealth from './cueHealth.png'
 
 
 export {
@@ -10,5 +11,6 @@ export {
     realtyone,
     toyota, 
     youtube,
-    freelancer
+    freelancer, 
+    cueHealth,
 }

@@ -1,4 +1,4 @@
-import { realtyone, toyota, youtube, freelancer } from "../assets/images";
+import { realtyone, toyota, youtube, freelancer, cueHealth } from "../assets/images";
 import {
     car,
     contact,
@@ -99,24 +99,24 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Freelance Developer",
-        company_name: "Self-employed",
-        icon: freelancer,
-        iconBg: "#ff9797",
-        date: "Nov 2022 - current", 
+        title: "Frontend Developer",
+        company_name: "Cue Health",
+        icon: cueHealth,
+        link: 'https://cuehealth.com/all-categories',
+        iconBg: "#e1e1e1",
+        date: "Feb 2021 - May 2024", 
         points: [
-            "Learned coding over the past two years, focusing on JavaScript and Python.",
-            "Utilized React and Next.js for developing web applications.",
-            "Continuously learned and applied AI concepts using Python.",
-            "Built various games to enhance coding skills and explore new technologies.",
-            "Regularly practiced problem-solving skills to improve coding proficiency"
+            "Collaborated within a team to develop user-friendly React applications, incorporating TypeScript for enhanced code quality and maintainability.",
+            "Utilized Framer Motion for advanced animations and transitions, enhancing the visual appeal and interactivity of the application.",
+            "Participated in Agile ceremonies such as sprint planning, daily stand-ups, and retrospectives, using Jira and following Scrum practices.",
+            "Implemented comprehensive unit and integration tests using Jest and React Testing Library.",
         ],
       },
       {
         title: "YouTuber",
         company_name: "Self-employed",
         icon: youtube, 
-        iconBg: "#52abff",
+        iconBg: "#a1abff",
         date: "Feb 2019 - Jan 2022",
         points: [
             "Uploaded videos daily, covering a range of topics to maintain audience interest and engagement.",
@@ -130,7 +130,7 @@ export const experiences = [
         title: "Sales Associate",
         company_name: "Autonation Toyota",
         icon: toyota,
-        iconBg: "#e898fe",
+        iconBg: "#f8c2fe",
         date: "Apr 2018 - Feb 2020",
         points: [
           "Provided exceptional service by listening to customer needs and offering tailored solutions.",
