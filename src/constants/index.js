@@ -1,4 +1,4 @@
-import { realtyone, toyota, youtube, freelancer, cueHealth } from "../assets/images";
+import { realtyone, toyota, freelancer, usArmy, BeaconFIre } from "../assets/images";
 import {
     car,
     contact,
@@ -10,11 +10,9 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
     nextjs,
     nodejs,
     react,
-    redux,
     moments,
     tailwindcss,
     typescript,
@@ -99,31 +97,39 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Geospatial Engineer(12Y)",
+        company_name: "United State Army",
+        icon: usArmy,
+        iconBg: "#000000",
+        date: "Sep 2024 - Dec 2024", 
+        points: [
+            "Develop leadership, teamwork, and discipline through training and collaboration with fellow trainees.",
+            "Strengthen problem-solving abilities and resilience in a high-pressure, structured environment.",
+            "Complete physical and tactical training phases, demonstrating commitment and perseverance.",
+        ],
+      },
+    {
         title: "Frontend Developer",
-        company_name: "Cue Health",
-        icon: cueHealth,
-        link: 'https://cuehealth.com/all-categories',
-        iconBg: "#e1e1e1",
+        company_name: "BeaconFIre Inc.",
+        icon: BeaconFIre,
+        iconBg: "#23dc48",
         date: "Feb 2021 - May 2024", 
         points: [
-            "Collaborated within a team to develop user-friendly React applications, incorporating TypeScript for enhanced code quality and maintainability.",
-            "Utilized Framer Motion for advanced animations and transitions, enhancing the visual appeal and interactivity of the application.",
-            "Participated in Agile ceremonies such as sprint planning, daily stand-ups, and retrospectives, using Jira and following Scrum practices.",
-            "Implemented comprehensive unit and integration tests using Jest and React Testing Library.",
+            "Design and implement the category page for company client(Cue Health) using React and TypeScript.",
+            "Utilize testing tools to write unit and integration tests, ensuring code stability and reducing bugs by 30%.",
+            "Collaborate with a cross-functional team in an agile environment, adhering to version control.",
         ],
       },
       {
-        title: "YouTuber",
-        company_name: "Self-employed",
-        icon: youtube, 
+        title: "Web Developer",
+        company_name: "Freelancer",
+        icon: freelancer, 
         iconBg: "#a1abff",
-        date: "Feb 2019 - Jan 2022",
+        date: "Jan 2020 - Feb 2023",
         points: [
-            "Uploaded videos daily, covering a range of topics to maintain audience interest and engagement.",
-            "Designed custom thumbnails for each video, enhancing visual appeal and increasing click-through rates.",
-            "Implemented SEO strategies to optimize video titles, descriptions, and tags, resulting in higher search rankings and increased visibility.",
-            "Collaborated with other YouTubers and influencers to expand reach and attract new subscribers.",
-            "Analyzed viewer metrics and feedback to continually improve content quality and relevance.",
+            "Build custom websites for small businesses, improving their online presence and accessibility.",
+            "Develop over 100 coding projects on GitHub, showcasing a strong commitment to learning.",
+            "Deliver high-quality results while balancing freelance work and other responsibilities.",
         ],
     },
       {
@@ -131,25 +137,23 @@ export const experiences = [
         company_name: "Autonation Toyota",
         icon: toyota,
         iconBg: "#f8c2fe",
-        date: "Apr 2018 - Feb 2020",
+        date: "Apr 2015 - Dec 2019",
         points: [
-          "Provided exceptional service by listening to customer needs and offering tailored solutions.",
-          "Demonstrated patience in addressing inquiries and concerns, ensuring customer satisfaction.",
-          "Resolved issues creatively, ensuring a smooth and satisfactory buying experience.",
-          "Maintained up-to-date knowledge of Toyota products for informed customer guidance. "
+          "Create professional email templates using HTML and CSS to improve communication and marketing.",
+          "Collaborate with cross-functional teams to streamline operations and improve customer satisfaction.",
+          "Deliver exceptional customer service ensuring a personalized and seamless car-buying experience."
          ],
       },
     {
       title: "Real Estate Agent",
       company_name: "Realty One Group",
       icon: realtyone,
-      iconBg: "#f6ee88",
-      date: "Mar 2014 - Apr 2018",
+      iconBg: "#e1e1e1",
+      date: "Jan 2013 - Apr 2015",
       points: [
-        "Provided unwavering support and patience to meet client needs.",
-        "Actively collaborated with professionals for successful transactions.",
-        "Maintained timely and reliable client communication.",
-        "Skillfully resolved negotiations for positive outcomes.",
+        "Build a personal website to promote services, generate leads, and manage client inquiries efficiently",
+        "Guide clients through every step of the real estate transaction process, ensuring a seamless experience.",
+        "Build and maintain strong client relationships through exceptional communication and personalized support.",
       ],
     },
 
