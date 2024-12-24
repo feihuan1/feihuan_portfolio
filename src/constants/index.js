@@ -1,4 +1,4 @@
-import { realtyone, toyota, freelancer, usArmy, BeaconFIre } from "../assets/images";
+import { realtyone, toyota, freelancer, usArmy, beaconFIre } from "../assets/images";
 import {
     car,
     contact,
@@ -111,8 +111,8 @@ export const experiences = [
     {
         title: "Frontend Developer",
         company_name: "BeaconFIre Inc.",
-        icon: BeaconFIre,
-        iconBg: "#23dc48",
+        icon: beaconFIre,
+        iconBg: "#0eb3f1",
         date: "Feb 2021 - May 2024", 
         points: [
             "Design and implement the category page for company client(Cue Health) using React and TypeScript.",
@@ -148,7 +148,7 @@ export const experiences = [
       title: "Real Estate Agent",
       company_name: "Realty One Group",
       icon: realtyone,
-      iconBg: "#e1e1e1",
+      iconBg: "#e9ec13",
       date: "Jan 2013 - Apr 2015",
       points: [
         "Build a personal website to promote services, generate leads, and manage client inquiries efficiently",
