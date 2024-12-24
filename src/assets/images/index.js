@@ -3,7 +3,7 @@ import realtyone from './realtyone.jpg'
 import toyota from './toyota.png'
 import youtube from './youtube.png'
 import freelancer from './freelancer.png'
-import beaconFIre from './beaconFIre.png'
+import beaconFire from './beaconFire.png'
 import usArmy from './usArmy.png'
 
 
@@ -15,6 +15,6 @@ export {
     toyota, 
     youtube,
     freelancer, 
-    beaconFIre,
+    beaconFire,
     usArmy,
 }

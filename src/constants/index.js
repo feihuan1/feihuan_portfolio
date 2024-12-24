@@ -1,4 +1,4 @@
-import { realtyone, toyota, freelancer, usArmy, beaconFIre } from "../assets/images";
+import { realtyone, toyota, freelancer, usArmy, beaconFire } from "../assets/images";
 import {
     car,
     contact,
@@ -111,7 +111,7 @@ export const experiences = [
     {
         title: "Frontend Developer",
         company_name: "BeaconFIre Inc.",
-        icon: beaconFIre,
+        icon: beaconFire,
         iconBg: "#0eb3f1",
         date: "Feb 2021 - May 2024", 
         points: [
